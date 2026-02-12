@@ -17,9 +17,6 @@ public class Worker {
     private Department department;
     private List<HourContract> contracts = new ArrayList<>();
 
-    public Worker() {
-
-    }
 
     public Worker(Department department, double baseSalary, WorkerLevel level, String name) {
         this.department = department;
@@ -27,6 +24,7 @@ public class Worker {
         this.level = level;
         this.name = name;
     }
+
 
     public String getName() {
         return name;
